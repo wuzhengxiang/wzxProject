@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'wzxProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Masonry'
+  pod 'AFNetworking'
+  pod 'MJExtension'
+  pod 'MBProgressHUD'
+  pod 'SDWebImage'
+  pod 'FMDB'
+  pod 'MJRefresh'
+  pod 'IQKeyboardManager'
+  pod 'SDCycleScrollView'
+  # Pods for wzxProject
+
+  target 'wzxProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'wzxProjectUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
